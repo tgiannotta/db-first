@@ -1,0 +1,19 @@
+macchine_usate
+
+-id: INT - PRIMARY_KEY(NOTNULL, UNIQUE, INDEX) - AUTO_INCREMENT
+
+-modello: VARCHAR(15), NOT_NULL
+
+-targa: VARCHAR(7), NOT_NULL
+
+-km_percorsi: MEDIUMINT, NOT_NULL
+
+-usura:  TEXT, NOT_NULL
+
+-prezzo: DECIMAL(6,2), NOT_NULL
+
+-descrizione: TEXT, NOT_NULL
+
+-foto: VARCHAR(200), DEFAULT('img/src/immagine_macchina.jpg')
+
+-prima_immatricolazione: DATE, NOT_NULL
